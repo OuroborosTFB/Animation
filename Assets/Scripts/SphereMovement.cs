@@ -11,7 +11,6 @@ public class SphereMovement : MonoBehaviour
 
     void Update()
     {
-
         transform.Translate(Vector3.right * _movementSpeed * Time.deltaTime);
     }
 }
